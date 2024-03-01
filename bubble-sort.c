@@ -7,6 +7,7 @@ void printArray(int arr[], int size) {
     }
     printf("\n");
 }
+
 void bubbleSort(int arr[], int size) {
     for(int i = 0; i < size; i++) {
         for(int j = 1; j < size-i; j++) {
@@ -19,14 +20,10 @@ void bubbleSort(int arr[], int size) {
     }
     printArray(arr, size);
 }
+
 int main() {
     int arr[] = {7, 8, 1, 2, 3};
     int size = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, size);
 }
-
-
-
-
-
 

@@ -9,9 +9,11 @@ int linearSearch(int arr[], int size, int target) {
     }
     return -1;
 }
+
 int main() {
     int arr[] = {7, 8, 1, 2, 3};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int index = linearSearch(arr, size, 2);
+    int target = 1;
+    int index = linearSearch(arr, size, target);
     printf("%d", index);
 }
